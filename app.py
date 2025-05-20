@@ -12,7 +12,7 @@ st.title("🚀 GATE CSE Topic Predictor with Year-wise Analysis & Study Roadmap"
 st.write("The GATE dataset is loaded directly from GitHub.")
 
 # GitHub raw CSV URL (update this with your actual repo link)
-GITHUB_CSV_URL = "https://raw.githubusercontent.com/yourusername/yourrepo/main/gate_questions.csv"
+GITHUB_CSV_URL = "https://github.com/devanshvpurohit/Gatepredictionandanalysis-/blob/main/questions-data.csv"
 
 @st.cache_data(ttl=3600)  # Cache for 1 hour to reduce load
 def load_data():
