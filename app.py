@@ -4,7 +4,7 @@ import google.generativeai as genai
 import os
 
 # Configure Gemini API key from Streamlit Cloud secrets
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=os.getenv("AIzaSyAUpmC2Vj5Zy_IygSEHLoZ8V3zDSPbgJRg"))
 
 st.set_page_config(page_title="GATE CSE Topic Predictor (Streamlit Cloud)", layout="wide")
 
